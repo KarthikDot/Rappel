@@ -12,4 +12,7 @@ gem 'gupshup'
 #Formtastic
 gem 'formtastic', '~> 1.2.3'
 
+#Devise
+gem 'devise'
+
 # end
