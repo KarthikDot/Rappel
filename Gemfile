@@ -9,10 +9,10 @@ gem 'jquery-rails', '>= 0.2.6'
 #SMSGupShup
 gem 'gupshup'
 
-#Formtastic
-gem 'formtastic', '~> 1.2.3'
-
 #Devise
 gem 'devise'
+
+#Datetime Validation
+gem 'validates_timeliness', '~> 3.0.2'
 
 # end

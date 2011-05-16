@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @meeting.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @meeting.description %>
+</p>
+
+<p>
+  <b>Due Date:</b>
+  <%= @meeting.due_date.to_formatted_s(:long_ordinal) %>
+</p>
+
+<p>
+  <b>Due Time:</b>
+  <%= @meeting.due_time.strftime('%H:%M:%S') %>
+</p>
+
+
+<%= link_to 'Edit', edit_meeting_path(@meeting) %> |
+<%= link_to 'Back', meetings_path %>
