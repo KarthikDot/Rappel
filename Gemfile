@@ -16,3 +16,4 @@ gem 'devise'
 gem 'validates_timeliness', '~> 3.0.2'
 
 # end
+gem "rubber", "1.13.1"
