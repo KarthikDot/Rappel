@@ -1,4 +1,4 @@
-MeetingReminder::Application.routes.draw do
+Rappel::Application.routes.draw do
   resources :meetings
 
     match '/meetings' => 'meetings#index', :as => 'user_root' #Devise Redirect after Sign In
