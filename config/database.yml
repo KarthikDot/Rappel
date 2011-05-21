@@ -16,11 +16,11 @@ test:
   timeout: 5000
 
 production:
-  adapter: mysql
+  adapter: mysql2
   encoding: utf8
   reconnect: false
   database: rappel_production
   pool: 5
   username: root
-  password: 
+  password: soujanya
   socket: /var/run/mysqld/mysqld.sock
