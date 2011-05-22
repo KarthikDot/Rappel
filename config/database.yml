@@ -21,6 +21,6 @@ production:
   reconnect: false
   database: rappel_production
   pool: 5
-  username: root
+  username: rails
   password: soujanya
   socket: /var/run/mysqld/mysqld.sock
