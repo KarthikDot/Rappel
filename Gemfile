@@ -15,7 +15,8 @@ gem 'devise'
 #Datetime Validation
 gem 'validates_timeliness', '~> 3.0.2'
 
-# end
-gem 'mysql2'
+#MySQL
+gem "mysql2", "~> 0.2.7"
 
+#Rack
 gem "rack", "~>1.1"
