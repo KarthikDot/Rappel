@@ -17,3 +17,5 @@ gem 'validates_timeliness', '~> 3.0.2'
 
 # end
 gem 'mysql2'
+
+gem "rack", "~>1.1"
